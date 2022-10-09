@@ -1,0 +1,170 @@
+body{
+    background-color: yellow;
+    margin: 10px;
+    width: 100%;
+}
+
+.ila-container{
+    display: flex;
+    position: relative;
+    margin: auto;
+    max-width: 800px;
+    width: auto;
+    height: auto;
+    padding: 13px;
+    justify-content: center;
+    }
+
+     .ila-container img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .curry-container{
+        display: flex;
+        position: absolute;
+        width: 80%;
+        height: 20%;
+        margin-top: 16%;
+        flex-flow: nowrap;
+        justify-content: center;
+    }
+
+    .curry-container2{
+        display: flex;
+        position: absolute;
+        justify-content: left;
+        width: 80%;
+        height: 20%;
+        margin-top: 37%;
+    }
+
+    .curry{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1%;
+        height: 100%;
+        width: 40%;
+    }
+
+    .curry2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1%;
+        height: 100%;
+        width: 15%;
+    }
+
+    .chor{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1%;
+        height: 150%;
+        width: 50%;
+    }
+
+    #div1,
+    #div2,
+    #div3,
+    #div4,
+    #div5,
+    #div6,
+    #div7,
+    #div8,
+    #div9,
+    #div10,
+    #div11,
+    #div12,
+    #div13{
+
+        margin: 10px;
+        width: 100%;
+        height: 50%
+    }
+
+    .curry-container1 {
+        height: 70%;
+        border: 1px solid black;
+        position: absolute;
+        display: flex;
+
+      }
+
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    padding: 24px;
+    width: 100%;
+}
+
+.choicesContainer{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+.btn{
+    border: none;
+    margin: 20px;
+    padding: 14px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(to left,#40c009,#c0bd11,#40c009);
+}
+
+
+h5{
+    text-align: center;
+    font-size: 25px;
+}
+
+.popup{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0.1);
+    transition:transform 0.4s,top 0.4s ;
+    visibility: hidden; 
+}
+.popup img{
+    width: 100%;
+    height: 100%;
+}
+
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #5bb43a;
+    color: #fff;
+    border:0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.btn#blur.active{
+    filter: blur(20%);
+    pointer-events: none;
+    user-select: none;
+}
+
+#popup.active{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%,-50%) scale(1);
+}
